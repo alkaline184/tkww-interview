@@ -6,7 +6,6 @@ const Card = props => {
   const handleClick = () => {
     setClicked(!clicked);
   };
-
   const { name, image, type, brandName, price, storeName } = props.cardResults;
 
   return (

@@ -50,7 +50,7 @@ function App() {
       </select>
       <div className="container">
         <h1>Results: </h1>
-        <div>{cardResults}</div>
+        <div data-testid="product-results">{cardResults}</div>
       </div>
       <div style={{ marginTop: 30 }} className="footer">
         {" "}
