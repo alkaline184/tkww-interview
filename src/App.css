@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.cardHolder {
+  border: 1px solid black;
+}
+
+.cardImage {
+  width: 100px;
+  max-width: 100px; 
+  max-height: "auto";
+}

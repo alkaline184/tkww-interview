@@ -1,7 +1,7 @@
 import axios from "axios";
-
-export default {
+const API = {
     getProduct: function(){
         return axios.get("https://qa-registry-interview-api.regsvcs.theknot.com/products");
     }
-}
+}; 
+export default API;
